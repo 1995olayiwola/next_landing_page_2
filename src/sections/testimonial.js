@@ -5,10 +5,9 @@ import Rating from 'components/rating';
 import ButtonGroup from 'components/button-group';
 import Carousel from 'react-multi-carousel';
 
-import Avatar1 from 'assets/testimonial/avatar1.png';
-import Avatar2 from 'assets/testimonial/avatar2.png';
-import Avatar3 from 'assets/testimonial/avatar3.png';
-import Avatar4 from 'assets/testimonial/avatar4.png';
+//import Avatar1 from 'assets/testimonial/avatar1.png';
+
+//import Avatar4 from 'assets/testimonial/avatar4.png';
 
 const data = [
   {
@@ -16,8 +15,8 @@ const data = [
     title: 'I like it ',
     description:
       'The products are good and perfect,It was so amazing I got it deliver on time. Thanks @omogiwa ventures',
-    avatar: Avatar1,
-    name: 'Olayiwola Abdur Rahmon',
+    avatar: 'https://lh4.googleusercontent.com/-EF9v_BS75VQ/AAAAAAAAAAI/AAAAAAAAAAA/WDc1JdtInug/s60-c-k-mo/photo.jpg',
+    name: 'Olatechbus Enterprises',
     designation: '@olatechbus',
     review: 4,
   },

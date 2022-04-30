@@ -38,8 +38,8 @@ const packages = {
   monthly: [
     {
       id: 1,
-      name: 'Free Plan',
-      description: 'For Small teams or office',
+      name: '',
+      description: '',
       img:Img1
       
       

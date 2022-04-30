@@ -5,19 +5,16 @@ import SectionHeader from 'components/section-header';
 import TeamCard from 'components/team-card';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 
-import Member1 from 'assets/team/member-1.png';
-import Member2 from 'assets/team/member-2.png';
-import Member3 from 'assets/team/member-3.png';
-import Member4 from 'assets/team/member-4.png';
-import Member5 from 'assets/team/member-5.png';
-import Member6 from 'assets/team/member-6.png';
+import Member1 from 'assets/giwa.jpg';
+import Member2 from 'assets/ola.jpg';
+
 
 const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
+    altText: 'Giwa Abdulwasiu',
+    title: 'Giwa Abdulwasiu',
     designation: 'CEO and Founder',
     socialProfile: [
       {
@@ -25,11 +22,27 @@ const data = [
         name: 'facebook',
         path: 'https://www.google.com/url?sa=t&source=web&rct=j&url=https://m.facebook.com/Omogiwa-Global-Ventures-104421131749022/%3Fref%3Dpy_c&ved=2ahUKEwjCpvyT47b3AhVEQhoKHRvwD6UQFnoECAMQAQ&usg=AOvVaw0N3pjGy0nC77nLQQ46F5TC',
         icon: <FaFacebookF />,
-      },
+      }
+      
       
     ],
   },
-];
+  {
+    id: 2,
+    imgSrc: Member2,
+    altText: 'Olayiwola Abdur Rahmon',
+    title: 'Olayiwola Abdur Rahmon',
+    designation: ' Developer',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'facebook',
+        path: 'https://web.facebook.com/rahmon.olayiwola.1?_rdc=1&_rdr',
+        icon: <FaFacebookF />,
+      }
+    ]
+  }
+]
 
 export default function TeamSection() {
   return (
